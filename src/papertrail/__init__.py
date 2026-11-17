@@ -1,1 +1,1 @@
-"""papertrail baseline (single-responsibility pipeline)."""
+"""papertrail package (single-responsibility pipeline)."""
