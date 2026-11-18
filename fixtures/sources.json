@@ -1,0 +1,49 @@
+[
+  {
+    "name": "arxiv",
+    "rate_per_sec": 1000,
+    "max_retries": 1,
+    "pages": {
+      "": {
+        "version": "2026-11",
+        "total": 3,
+        "next_cursor": "c2",
+        "items": [
+          {"id": "2401.00001", "arxiv_id": "2401.00001", "title": "Paper A", "type": "preprint", "doi": "10.1000/AAA"},
+          {"id": "2401.00002", "arxiv_id": "2401.00002", "title": "Paper B", "type": "preprint"}
+        ]
+      },
+      "c2": {
+        "version": "2026-11",
+        "next_cursor": null,
+        "items": [
+          {"id": "2401.00003", "arxiv_id": "2401.00003", "title": "Paper C", "type": "preprint"},
+          {"id": "2401.00003", "arxiv_id": "2401.00003", "title": "Paper C", "type": "preprint"},
+          {"id": "2401.00004", "arxiv_id": "2401.00004", "title": "Paper D", "type": "preprint", "doi": "https://doi.org/10.1000/aaa"}
+        ]
+      }
+    }
+  },
+  {
+    "name": "crossref",
+    "rate_per_sec": 1000,
+    "max_retries": 2,
+    "errors": {"": ["timeout"], "c2": ["http500", "http500", "http500"]},
+    "pages": {
+      "": {
+        "schema_version": "1.1",
+        "total_results": 2,
+        "next": "c2",
+        "results": [
+          {"DOI": "10.1000/aaa", "title": "Paper A", "type": "journal-article", "published": true},
+          {"DOI": "10.1000/bbb", "title": "Paper B published", "type": "journal-article", "published": true}
+        ]
+      },
+      "c2": {
+        "schema_version": "1.1",
+        "next": null,
+        "results": []
+      }
+    }
+  }
+]
