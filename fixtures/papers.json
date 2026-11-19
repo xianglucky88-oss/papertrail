@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p-001",
+    "doi": "10.1000/preprint-001",
+    "title": "Graph Networks for Citation Disambiguation",
+    "venue": "arXiv",
+    "ts": "2024-01-10T00:00:00Z",
+    "authors": [
+      {"name": "Wei Zhang", "orcid": "0000-0002-1825-0097", "affiliations": ["Tsinghua University"]},
+      {"name": "Ana Torres", "orcid": "0000-0001-5109-3700", "affiliations": ["University of Lisbon"]}
+    ]
+  },
+  {
+    "id": "p-002",
+    "doi": "10.1000/journal-001",
+    "title": "Graph Networks for Citation Disambiguation",
+    "venue": "Journal of Metadata",
+    "ts": "2024-09-01T00:00:00Z",
+    "version_of": "10.1000/preprint-001",
+    "authors": [
+      {"name": "Ana Torres", "orcid": "0000-0001-5109-3700", "affiliations": ["University of Lisbon"]},
+      {"name": "Wei Zhang", "orcid": "0000-0002-1825-0097", "affiliations": ["Tsinghua University"]}
+    ]
+  },
+  {
+    "id": "p-003",
+    "doi": "10.1100/name-clash",
+    "title": "Optical Sensors in Coastal Monitoring",
+    "venue": "Sensors Letters",
+    "ts": "2024-03-15T00:00:00Z",
+    "authors": [
+      {"name": "Wei Zhang", "affiliations": ["Ocean University"], "orcid": ""},
+      {"name": "Bo Li", "orcid": "0000-0003-1234-5674", "affiliations": ["Ocean University"]}
+    ]
+  },
+  {
+    "id": "p-004",
+    "doi": "10.1200/rename-move",
+    "title": "Federated Metadata at Scale",
+    "venue": "DC Conference",
+    "ts": "2025-02-20T00:00:00Z",
+    "authors": [
+      {"name": "Carla Mendes", "orcid": "0000-0001-5109-3700",
+       "previous_names": ["Ana Torres"], "affiliations": ["University of Porto"]},
+      {"name": "Wei Zhang", "orcid": "0000-0002-1825-0097",
+       "affiliations": ["MIT", "Tsinghua University"]}
+    ]
+  },
+  {
+    "id": "p-005",
+    "doi": "10.1300/orphan-conflict",
+    "title": "Cold Start Author Identification",
+    "venue": "Identities Workshop",
+    "ts": "2025-05-01T00:00:00Z",
+    "authors": [
+      {"name": "Wei Zhang", "affiliations": ["No-Name Institute"], "orcid": ""},
+      {"name": "Sara Kim", "orcid": "0000-0004-0000-0000", "affiliations": ["No-Name Institute"]}
+    ]
+  },
+  {
+    "id": "p-006",
+    "doi": "10.1400/anonymous-paper",
+    "title": "Anonymous Peer Review Archive Study",
+    "venue": "Ethics Journal",
+    "ts": "2025-06-10T00:00:00Z",
+    "authors": [
+      {"anonymous": true, "name": "", "affiliations": []},
+      {"name": "Sara Kim", "orcid": "0000-0004-0000-0000", "affiliations": ["No-Name Institute"]}
+    ]
+  },
+  {
+    "id": "p-001",
+    "doi": "10.1000/preprint-001",
+    "title": "Graph Networks for Citation Disambiguation",
+    "venue": "arXiv",
+    "ts": "2024-01-10T00:00:00Z",
+    "authors": [
+      {"name": "Wei Zhang", "orcid": "0000-0002-1825-0097", "affiliations": ["Tsinghua University"]},
+      {"name": "Ana Torres", "orcid": "0000-0001-5109-3700", "affiliations": ["University of Lisbon"]}
+    ]
+  }
+]
